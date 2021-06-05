@@ -10,6 +10,7 @@ class kamar0252 extends Model
     use HasFactory;
     
     protected $table = 'kamar';
+    public $timestamps = false;
 
     protected $fillable = [
         'id',
